@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-h2{
+h2,h6{
     font-family: 'Graduate', "cursive";
 }
 footer, header, hgroup, menu, nav, section {
@@ -282,5 +282,228 @@ width: 720px;
     font-size: 1em;
     background-color: #e45441;
     color: #fff;
+    border: 1px solid #e45441;
     border-radius: 5px;
+}
+.gallery_section .button a:hover{
+    background-color: transparent;
+    color: #e45441;
+}
+.services_section h2{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3em;
+    padding-bottom: 2em;
+}
+.services_section .services_container .services_cards{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+.services_section .services_container .services_cards .only_services_card{
+    width: 390px;
+    position: relative;
+}
+.services_section .services_container .services_cards .only_services_card .img_services img{
+    height: 145px;
+    width: 145px;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.services_section .services_container .only_services_card .text_services{
+    background-color: #3a3f58;
+    padding: 97px 25px 30px 25px;
+    text-align: center;
+    color: #fff;
+}
+.services_section .services_container .only_services_card .text_services h6{
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.services_section .services_container .only_services_card .text_services p{
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+.services_section .services_container .only_services_card .text_services a{
+    padding: 0.5em 2em;
+    color: #fff;
+    background-color: #e45441;
+    border: 1px solid #e45441;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.services_section .services_container .only_services_card .text_services a:hover{
+    color: #e45441;
+    background-color: transparent;
+}
+.blog_section h2{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.blog_section .blog-container{
+    display: flex;
+}
+.blog_section .blog-container .blog_wrapper{
+    display: flex;
+    padding: 0px 1em;
+    width: 750px;
+}
+.blog_section .blog-container .blog_wrapper .blog_img_box{
+    width: 225px;
+    min-width: 225px;
+}
+.blog_section .blog-container .blog_wrapper .blog_img_box img{
+    width: 100%;
+}
+.blog_section .blog-container .blog_wrapper .blog_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    background-color: #f9f8f7;;
+}
+.blog_section .blog-container .blog_wrapper .blog_detail h6{
+    font-size: 1.2em;
+}
+.blog_section .blog-container .blog_wrapper .blog_detail p{
+    margin-top: 0.6em;
+    margin-bottom: 1.5em;
+}
+.blog_section .blog-container .blog_wrapper .blog_detail a{
+    padding: .5em 1.2em;
+    color: #fff;
+    border: 1px solid #3a3f58;
+    background-color: #3a3f58;
+}
+.blog_section .blog-container .blog_wrapper .blog_detail a:hover{
+    color: #3a3f58;
+    background-color: transparent;
+}
+.test_container h2{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    text-align: center;
+}
+.test_container .test_wrapper{
+    margin-top: 10em;
+    position: relative;
+}
+.test_container .test_wrapper .text_img_box img{
+    border: 8px solid #fff;
+    border-radius: 100%;    
+    min-width: 175px;
+    max-width: 175px;
+    position: absolute;
+    margin: auto;
+    top: -40%;
+    left: 17%; 
+}
+.test_container .test_wrapper .details_test{
+    width: 995px;
+    background-color: #3a3f58;
+    padding: 112px 25px 25px 25px;
+    margin: auto;
+    color: #fff;
+}
+.test_container .test_wrapper .details_test h5{
+    font-size: 1.4em;
+    color: #e45441;
+}
+.test_container .test_wrapper .details_test p{
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+.test_container .test_wrapper .details_test i{
+    font-size: 1.2em;
+}
+footer .contact_section{
+    margin-top: 10em;
+}
+footer .contact_section .contact_container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+} 
+footer .contact_section .contact_container .form_wrapper{
+    border: 5px solid #000;
+    background-color: #3a3f58;
+    width: 555px;
+    padding: 2.5em 2em;
+    margin: 0em 1em;
+}
+footer .contact_section .contact_container .form_wrapper h6{
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+footer .contact_section .contact_container .form_wrapper .contact{
+    margin-bottom: 1.5em;
+}
+footer .contact_section .contact_container .form_wrapper input{
+    width: 30em;
+    height: 3em;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1em;
+}
+footer .contact_section .contact_container .form_wrapper .contact_1 input{
+    height: 8em;
+    margin-bottom: 3em;
+}
+footer .contact_section .contact_container .form_wrapper a{
+    padding: 0.6em 2.8em;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #e45441;
+    border: 1px solid #e45441;
+    text-transform: uppercase;
+}
+footer .contact_section .contact_container .form_wrapper a:hover{
+    color: #e45441;
+    background-color: transparent;
+}
+footer .contact_section .contact_container .subscribe{
+    margin-top: 7em;
+    margin-left: 1EM;
+    width: 555px;
+}
+footer .contact_section .contact_container .subscribe h5{
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+footer .contact_section .contact_container .subscribe P{
+    color: #777;
+    margin-bottom: 1em;
+}
+footer .contact_section .contact_container .subscribe .subscribe_form input{
+    width: 35em;
+    height: 3em;
+    padding-left: 1em;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    margin-bottom: 1.5em;
+}
+footer .contact_section .contact_container .subscribe .subscribe_form a{
+    padding: 0.5em 2.2em;
+    background-color: #3a3f58;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1em;
+}
+footer .footer_section{
+    padding: 165x 0px 75px 0px;
+}
+footer .footer_section .footer_container{
+    background-color: #3a3f58;
+
 }
